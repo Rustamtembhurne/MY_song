@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image with Text</title>
+    <style>
+        /* Style for the container that holds the image and text */
+        .image-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Style for the image */
+        .image-container img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Style for the text overlay */
+        .image-overlay {
+            position: absolute;
+            top: 1%; 
+            left: 1%; 
+            /* transform: translate(-50%, -50%);  */
+            color: blue; /* Text color */
+            padding: 10px; /* Add some padding to the text */
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="./img/pexels-codioful-(formerly-gradienta)-7130534.jpg" alt="A beautiful image">
+        <div class="image-overlay">
+            <h1>This is my all song </h1>
+
+            <audio src="./song/WhatsApp Audio 2023-09-03 at 12.18.46 PM.mpeg" controls></audio>
+            <audio src="./song/WhatsApp Audio 2023-09-03 at 12.18.46 PM (1).mpeg" controls></audio>
+            
+        </div>
+    </div>
+</body>
+</html>
